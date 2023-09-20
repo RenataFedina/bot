@@ -26,7 +26,7 @@ async def process_event(update, dp: Dispatcher):
 
 # Selectel serverless entry point
 async def main(**kwargs):
-	bot = Bot(os.environ.get("TOKEN"))
+	bot = Bot(os.environ.get("1241477780:AAHYJjLzv7S5g_Apd7vcf3ADeRWaiWsaex0"))
 	dp = Dispatcher(bot)
 
 	await register_handlers(dp)
